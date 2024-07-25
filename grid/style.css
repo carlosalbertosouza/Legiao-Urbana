@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+body {
+    /*background-image: url(imagem/SOUL.jpg);
+    background-repeat: no-repeat ;
+    background-position: center center;
+    background-attachment: fixed;*/
+    background-image: linear-gradient( to left, green, lightgreen, white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+
+header {
+    color: rgb(99, 60, 60);
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-image: linear-gradient( to right, green, lightgreen, white);
+    border-radius: 5px;
+    margin: 25px 5px;
+    padding: 10px;
+}
+
+nav > a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 25px;
+}
+
+nav > a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;    
+}
+
+
+div > img {
+    padding: 20px;
+}
+
+div > ul > a  {
+    color: rgb(145, 255, 0);
+    text-shadow: 1px 3px 5px  rgb(0, 0, 0);
+    font-size: 1.2em;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+div > ul > a:hover {
+    color: black;
+    font-size: 2em;
+}
+
+div.container {
+    display: grid;
+    grid-template-columns: 600px 600px  600px ;
+    grid-template-rows: 400px 400px 400px;
+    grid-gap: 60px;
+    justify-content: space-around;
+    
+}
+
+div.item {   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.425);
+    text-align: center;
+}
+
+div#um {
+    background-image: url(imagem/legiao\ urbana\ 1-600.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#dois {
+    background-image: url(imagem/legião\ urbana\ 2-600.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#três {
+    background-image: url(imagem/legião\ urbana\ 3-600.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#quatro {
+    background-image: url(imagem/legião\ urbana\ 4-600.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#cinco {
+    background-image: url(imagem/legião\ urbana\ 5-600.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#seis {
+    background-image: url(imagem/legião\ urbana\ 6-600.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#sete {
+    background-image: url(imagem/legião\ urbana\ 7-600.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+div#oito {
+    background-image: url(imagem/legião\ urbana\ 8-600.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
