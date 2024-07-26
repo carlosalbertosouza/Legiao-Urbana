@@ -8,10 +8,6 @@
 }
 
 body {
-    /*background-image: url(imagem/SOUL.jpg);
-    background-repeat: no-repeat ;
-    background-position: center center;
-    background-attachment: fixed;*/
     background-image: linear-gradient( to left, green, lightgreen, white);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px;
@@ -137,3 +133,5 @@ div#oito {
     background-position: center center;
     background-size: 600px 400px;
 }
+
+
