@@ -25,8 +25,8 @@ header {
 
 nav {
     background-image: linear-gradient( to top, gray, lightgray, white);
-    border-radius: 5px;
-    margin: 25px 5px;
+    border-radius: 15px;
+    margin: 25px 10px;
     padding: 10px;
 }
 
@@ -66,8 +66,8 @@ div.container {
     display: grid;
     grid-template-columns: 560px 560px 560px ;
     grid-template-rows: 400px 400px 400px;
-    grid-gap: 50px;
-    justify-content: space-between;    
+    grid-gap: 30px;
+    justify-content: space-evenly;    
 }
 
 div.item {   
@@ -136,7 +136,14 @@ div#oito {
     background-size: 600px 400px;
 }
 
-@media screen and (min-width: 400px) and (max-width: 800px) { 
+div#nove {
+    background-image: url(imagem/legiao-urbana\ acústico-600.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 600px 400px;
+}
+
+@media screen and (min-width: 400px) and (max-width: 796px) { 
     body {
        background-image: url(imagem/renato\ russo.jpeg);
        background-repeat: no-repeat;
@@ -149,7 +156,7 @@ div#oito {
         background-image: linear-gradient(to top, gray, lightgray, white);
         font-size: .6em;
         border-radius: 5px;
-        margin:25px  5px;
+        margin: 25px  5px;
         padding: 5px;
     }
 
@@ -161,7 +168,7 @@ div#oito {
     div.item {  
         width: 400px;
         height: 400px; 
-        margin: auto;
+        margin: 25px 30px 25px 25px;
         border: 2px solid black;
         border-radius: 15px;
         box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.425);
@@ -221,5 +228,109 @@ div#oito {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 400px 400px;
+    }
+
+    div#nove {
+        background-image: url(imagem/legiao-urbana\ acústico-600.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 400px 400px;
+    }
+}
+
+@media screen and (min-width: 796px) and (max-width: 1204px) { 
+    body {
+       background-image: url(imagem/renato\ russo.jpeg);
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       background-attachment: fixed;
+    }
+
+    nav {
+        background-image: linear-gradient(to top, gray, lightgray, white);
+        font-size: .6em;
+        border-radius: 5px;
+        margin: 25px  5px;
+        padding: 5px;
+    }
+
+    div.container {
+        display: grid;
+        grid-template-columns: 560px 560px;
+        grid-template-rows: 400px 400px;
+        grid-gap: 30px;
+        justify-content: space-evenly;
+    }
+    div.item {  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid black;
+        border-radius: 15px;
+        box-shadow: 15px 15px 15px 0px rgba(0, 0, 0, 0.425);
+        text-align: center;
+    }
+
+    div#um {
+        background-image: url(imagem/legiao\ urbana\ 1-300.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    div#dois {
+        background-image: url(imagem/legião\ urbana\ 2-600.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    
+    div#três {
+        background-image: url(imagem/legião\ urbana\ 3-600.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    
+    div#quatro {
+        background-image: url(imagem/legião\ urbana\ 4-600.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    
+    div#cinco {
+        background-image: url(imagem/legião\ urbana\ 5-600.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    
+    div#seis {
+        background-image: url(imagem/legião\ urbana\ 6-600.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    
+    div#sete {
+        background-image: url(imagem/legião\ urbana\ 7-600.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+    
+    div#oito {
+        background-image: url(imagem/legião\ urbana\ 8-600.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
+    }
+
+    div#nove {
+        background-image: url(imagem/legiao-urbana\ acústico-600.jpeg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 600px 400px;
     }
 }
